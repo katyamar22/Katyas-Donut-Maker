@@ -1,0 +1,19 @@
+*{
+    font-family: monospace;
+    line-height: 1.618em;
+    background-color: #A2D2FF;
+}
+
+h1 {
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    justify-content: center
+
+
+}
+
+p {
+    position: relative;
+
+}

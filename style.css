@@ -1,0 +1,62 @@
+* {
+    font-family: monospace;
+    line-height: 1.618 em;
+    margin: 2 em;
+    padding: 0;
+    background-color: #A2D2FF;
+}
+
+nav{
+    position: flex;
+    width: 100%;
+
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+
+    background-color: #BDE0FE;
+}
+
+nav a{
+    padding: 0.5em 2em;
+    color: black;
+    background-color: #BDE0FE;
+}
+
+nav a:hover{
+    background: #EAF4F4;
+}
+ h1{
+    position: relative;
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-top: 1em;
+    font-size: 3em;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+
+    background-color: #FFAFCC;
+ }
+
+ p{
+    font-size: 1.75em;
+    margin-left: 8em;
+    margin
+ }
+
+button{
+    margin-left: 10em;
+    font-size: 2em
+}
+
+table{
+    width: 50%;
+    margin-left: 17em;
+    border: 1px solid;
+}
+ 
+
+
+

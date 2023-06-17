@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donut Clicker Game</title>
+    <style> .disabled{opacity: 0.5; cursor: not-allowed} </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <!-- NAVIGATION TABS-->
+    <nav>
+        <a href="company.html">About The Company</a></button>
+        <a href="game.html">About The Game</a></button>
+        <a href="creator.html">About The Creator</a></button>
+    </nav>
+
+<body>
+    <h1>Donut Clicker</h1>
+    <p>Click the donut to get started:</p>
+    <button id="donut-button"><img src="donutt.png" alt="donut"></button>
+
+    <p>Donuts: <span id="donut-counter">0</span></p>
+    <p>Donut clicks per second: <span id="donut-clicks">1</span></p>
+    <hr>
+
+    <p>Auto-clickers: <span id="auto-clicker-count">0</span></p>
+
+    <p>Donuts per second: <span id="auto-clickers">0</span></p>
+
+    <p>Cost of auto-clicker: <span id="auto-clicker-cost">100</span> donuts</p>
+
+    <button id="auto-clicker-button">Buy an auto-clicker</button>
+    
+   <p>After you have baked a certain number of donuts, you can buy auto-clickers so that 
+    you can automatically bake donuts without having to continue to click
+   </p>
+
+   <table>
+    <tr>
+        <td>Auto-clicker Amount </td>
+        <td>Cost</td>
+    </tr> 
+    <tr>
+        <td>1 Cliker</td>
+        <td>100 Donuts</td>
+    </tr>
+    <tr>
+        <td>2 Clickers</td>
+        <td>110 Donuts</td>
+    </tr>
+    <tr>
+        <td>3 Clickers</td>
+        <td>121 Donuts</td>
+    </tr>
+    <tr>
+        <td>4 Clickers</td>
+        <td>132 Donuts</td>
+    </tr>
+   </table>
+
+   <p> And so on...</p>
+
+</body>
+<script src="app.js"></script>
+</html>
